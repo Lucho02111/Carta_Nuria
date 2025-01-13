@@ -7,6 +7,22 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+ <audio controls autoplay style="display: none;">
+        <source src="FlowersNeedRain.mp3" type="audio/mp3">
+    </audio>
+    <div id="lyrics">
+      
+    </div>
+    <script>
+        // Simula la interacción del usuario al hacer clic en el documento
+        document.addEventListener('click', function() {
+          // Obtiene el elemento de audio y lo reproduce
+          var audio = document.querySelector('audio');
+          audio.play();
+        });
+      </script>
+  
   <main>
     <div class="container-letter">
       <div class="cover"></div>
